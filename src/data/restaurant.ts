@@ -5,9 +5,9 @@ export const restaurantData: Restaurant = {
   name: 'QAZAQ',
 
   tagline: {
-    kz: 'Тараздың дәмі. Заманауи көзқарас.',
-    ru: 'Вкус Тараза. Современный взгляд.',
-    en: 'The taste of Taraz. A modern approach.',
+    kz: '',
+    ru: '',
+    en: '',
   },
 
   description: {
