@@ -1,0 +1,12 @@
+import { useRef } from 'react';
+import { useInView } from 'framer-motion';
+
+export const useScrollReveal = (threshold: number = 0.1) => {
+  const ref = useRef<HTMLElement | null>(null);
+  const isInView = useInView(ref, {
+    amount: threshold,
+    once: true,
+  });
+
+  return { ref, isInView };
+};
